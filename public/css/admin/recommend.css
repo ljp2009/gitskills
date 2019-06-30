@@ -1,0 +1,200 @@
+.imgShow{
+    width:200px;
+    display:inline-block;
+    margin-left:1rem;
+}
+.moveItem{
+    border:solid 3px yellow;
+}
+.yma_perview{
+    text-align:center;
+    width:140px;
+    overflow:hidden;
+    position:relative;
+    margin:0 auto 10px auto;
+}
+.yma_perview>.dim_box{
+    width:128px;
+    height:128px;
+    margin: 5px auto 0 auto;
+}
+.yma_perview>.dim_box>.dim_avatar{
+    border:1px solid #e2e2e2;
+    display:block;
+    width:100%;
+    height:100%;
+}
+.yma_perview>.dim_text{
+    font-size:1.2rem;
+    color:#000000;
+    height:20px;
+    overflow:hidden;
+    line-height:20px;
+    display:block;
+    width:100%;
+    padding:0 11px;
+    text-align:center;
+    vertical-align:middle;
+}
+.yma_perview>.master_box{
+    width:128px;
+    height:128px;
+    margin: 5px auto 0 auto;
+}
+.yma_perview>.master_box>.master_avatar{
+    border:1px solid #e2e2e2;
+    border-radius:50%;
+    display:block;
+    width:100%;
+    height:100%;
+}
+.yma_perview>.master_text{
+    font-size:1.2rem;
+    color:#000000;
+    height:20px;
+    overflow:hidden;
+    line-height:20px;
+    display:block;
+    width:100%;
+    padding:0 11px;
+    text-align:center;
+    vertical-align:middle;
+}
+.yma_perview>.rec_cover{
+    display:block;
+    width:128px;
+    height:150px;
+    margin: 5px auto 0 auto;
+}
+.yma_perview>.rec_title, .yma_perview>.rec_intro{
+    font-size:1.2rem;
+    color:#000000;
+    height:20px;
+    overflow:hidden;
+    line-height:20px;
+    display:block;
+    width:100%;
+    padding:0 11px;
+    text-align:left;
+    vertical-align:middle;
+}
+.yma_perview>.rec_intro{
+    color:#929292;
+}
+.yma_perview>.rec_flag{
+    position:absolute;
+    top:4px;
+    right:-18px;
+    background-color:#ef7c1e;
+    font-size:1.1rem;
+    color:#ffffff;
+    height:20px;
+    width:70px;
+    line-height:20px;
+    vertical-align:middle;
+    text-align:center;
+	-webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    font-style:normal;
+}
+.yma_perview>.rec_add, .yma_perview>.rec_modify, .yma_perview>.rec_delete{
+    position:absolute;
+    height:30px;
+    width:30px;
+    color:#000000;
+    border:1px solid #e2e2e2;
+    background-color:rgba(255,255,255,0.5);
+    right:7px;
+    display:block;
+}
+.yma_perview>.rec_add{
+    bottom:107px;
+}
+.yma_perview>.rec_modify{
+    bottom:74px;
+}
+.yma_perview>.rec_delete{
+    bottom:42px;
+}
+.yma_rec_form_row{
+  width:100%;
+  padding:10px 10px 0 10px;
+}
+.yma_rec_form_label{
+  width:90%;
+  font-size:14px;
+  text-align:right;
+  display:block;
+  margin: 3px auto 0 auto;
+}
+.yma_rec_form_img{
+    display:block;
+    width:128px;
+    height:150px;
+    margin: 3px auto 0 auto;
+}
+.yma_rec_form_input, .yma_rec_form_btn, .yma_rec_form_select{
+  width:90%;
+  height:30px;
+  line-height:30px;
+  font-size:1.4rem;
+  text-align:left;
+  vertical-align:middle;
+  border:1px solid #e2e2e2;
+  margin:0;
+}
+.yma_rec_form_input{
+  width:80%;
+}
+.yma_rec_form_btn{
+  width:10%;
+  text-align:center;
+}
+.yma_rec_form_list_container{
+  width:100%;
+  height:300px;
+  overflow-y:auto;
+}
+.yma_rec_form_list{
+  list-style:none;
+  padding:0;
+}
+.yma_rec_form_list>li{
+  width:100%;
+  height:50px;
+  margin:0 0 5px 0;
+  text-align:left;
+}
+.yma_rec_form_list>li>a{
+  width:100%;
+  background-color:#ffffff;
+  height:50px;
+  display:block;
+}
+.yma_rec_form_list>li>a:hover{
+  background-color:#e2e2e2;
+}
+.yma_rec_form_list>li>a>img{
+  width:50px;
+  height:50px;
+  margin:0;
+  display:inline-block;
+}
+.yma_rec_form_list>li>a>span{
+  height:50px;
+  line-height:50px;
+  margin:0;
+  display:inline-block;
+  text-align:left;
+  vertical-align:middle;
+  padding-left:15px;
+  font-size:14px;
+  color:#000000;
+}
+.yma_info{
+  background-color:#e9e9e9;
+  color:#929292;
+  font-size:1.2rem;
+}

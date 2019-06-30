@@ -1,0 +1,1 @@
+<a href="{{ url('password/reset/'.$token) }}" target="__blank">点击这里重置密码</a>

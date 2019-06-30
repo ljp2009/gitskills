@@ -1,0 +1,110 @@
+.ym_up_info{
+  width:100%;
+  position:relative;
+  padding-left:50px;
+
+}
+.ym_up_info_avatar{
+  position:absolute;
+  left:0;
+  top:8px;
+  height:41px;
+  width:41px;
+  border-radius:50%;
+}
+.ym_up_info_title{
+  line-height:21px;
+  max-height:42px;
+  font-size:1.4rem;
+  color:#383838;
+  margin-top:5px;
+  text-align:left;
+  vertical-align:top;
+  margin-bottom:0;
+  width:100%;
+  overflow:hidden;
+}
+.ym_up_info_user{
+  font-size:1.1rem;
+  line-height:21px;
+  text-align:justify;
+  width100%;
+  color:#383838;
+  display:block;
+  margin-top:8px;
+  margin-bottom:8px;
+}
+.ym_up_info_owner{
+  position:absolute;
+  top:5px;
+  right:0;
+  width:74px;
+  height:32px;
+  line-height:19px;
+  text-align:right;
+  font-weight:normal;
+  vertical-align:middle;
+  margin:0;
+  display:block;
+}
+.ym_up_info_owner>span{
+  font-size:1rem;
+  color:#e2e2e2;
+  height:19px;
+  line-height:19px;
+  padding:0;
+  margin:0;
+}
+.ym_up_info_owner>a{
+  color:#ef7c1e;
+  font-size:1.3rem;
+  height:19px;
+  line-height:19px;
+  padding:0;
+  margin:0;
+}
+
+.ym_up_ipcard{
+  position:relative;
+  height:80px;
+  width:100%;
+  border-top:solid 1px #e2e2e2;
+  font-size:1.2rem;
+}
+.ym_up_ipcard_img{
+  position:absolute;
+  left:0;
+  top:15px;
+  height:46px;
+  width:46px;
+  margin:2px;
+  border-radius:3px;
+}
+.ym_up_ipcard_info{
+  position:absolute;
+  left:0;
+  top:15px;
+  height:60px;
+  width:100%;
+  padding-left:65px;
+  padding-right:5px;
+}
+.ym_up_ipcard_info_title{
+  display:block;
+  font-size:1.3rem;
+  line-height:1.3rem;
+  height:15px;
+  margin-top:10px;
+  margin-bottom:5px;
+}
+.ym_up_ipcard_info_text{
+  display:block;
+  font-size:1.1rem;
+  color:#929292;
+  line-height:15px;
+  margin-top:5px;
+  overflow:hidden;
+  word-break:keep-all;
+  white-space:nowrap;
+  text-overflow:ellipsis;
+}

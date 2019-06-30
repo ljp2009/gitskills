@@ -1,0 +1,105 @@
+.ym_milestone_box{
+  min-height:50px;
+  padding-top:22px;
+  border:none;
+}
+.ym_milestone{
+  padding:10px 0px;
+  width:100%;
+  border-left:1px solid #e2e2e2;
+  padding-bottom:5px;
+  padding-top:5px;
+  position:relative;
+}
+.ym_milestone.empty{
+
+  left:0;
+  vertical-align:middle;
+  font-size:1.3rem;
+  width:100%;
+  color:#929292;
+  text-align:center;
+  border:none;
+}
+.ym_milestone>.position{
+  position:absolute;
+  top:-170px;
+  z-index:-1;
+}
+.ym_milestone>.header{
+  position:absolute;
+  left:20px;
+  top:-8px;
+  height:16px;
+  line-height:16px;
+  vertical-align:middle;
+  font-size:1.4rem;
+  width:100%;
+}
+.ym_milestone>.header>span{
+  font-size:1.2rem;
+  display:inline-block;
+  line-height:16px;
+  vertical-align:middle;
+  height:16px;
+  margin-bottom:4px;
+  margin-left:5px;
+}
+.ym_milestone>.header>span:last-of-type{
+  display:block;
+  float:right;
+  margin-right:20px;
+}
+.ym_milestone>.icon{
+  position:absolute;
+  left:-8px;
+  top:-8px;
+  height:16px;
+  width:16px;
+  line-height:16px;
+  border-radius:50%;
+  background-color:#fff;
+  border:solid 3px #e2e2e2;
+}
+.ym_milestone.finish{ border-color:#e2e2e2; } 
+.ym_milestone.wait{ border-color:#e2e2e2; } 
+.ym_milestone.active{ border-color:#ef7c1e; } 
+.ym_milestone.delay{ border-color:#f7535a; } 
+
+.ym_milestone.finish>.header{ color:#e2e2e2; } 
+.ym_milestone.wait>.header{ color:#929292; } 
+.ym_milestone.active>.header{ color:#ef7c1e; } 
+.ym_milestone.delay>.header{ color:#f7535a; } 
+
+.ym_milestone.finish>.icon{ border-color:#e2e2e2; } 
+.ym_milestone.wait>.icon{ border-color:#929292; } 
+.ym_milestone.active>.icon{ border-color:#ef7c1e; } 
+.ym_milestone.delay>.icon{ border-color:#f7535a; } 
+
+.ym_milestone>.body{
+  margin-top:10px;
+  min-height:50px;
+  max-height:120px;
+  padding-left:20px;
+  padding-right:50px;
+  width:100%;
+  font-size:1.2rem;
+  color:#929292;
+}
+.ym_milestone.finish>.body{ color:#e2e2e2; } 
+
+.ym_milestone>.ctrl{
+  height:25px;
+  width:40px;
+  border:none;
+  border-radius:3px;
+  background-color:#ef7c1e;
+  position:absolute;
+  right:0;
+  top:10px;
+  font-size:14px;
+  color:#fff;
+}
+.ym_milestone.finish>.ctrl{ display:none; } 
+.ym_milestone.wait>.ctrl{ display:none; } 
+

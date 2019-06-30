@@ -1,0 +1,236 @@
+/*私信列表*/
+.private-list-box {
+  width:100%;
+  min-height:60px;
+}
+
+.private-list-box .private-list{
+  border-bottom:1px solid #e2e2e2;
+  padding:10px;
+  background-color:#ffffff;
+  clear:both;
+  min-height:68px;
+  position:relative;
+}
+
+.private-list-box .user-photo{
+  width:48px;
+  height:48px;
+  display:block;
+  position:absolute;
+  left:10px;
+  top:10px;
+  border-radius:50%;
+  overflow:hidden;
+}
+
+.private-list-box .user-name{
+  color:#383838;
+  font-size:1.4rem;
+  position:absolute;
+  left:68px;
+  top:13px;
+}
+.private-list-box .created-time{
+  color:#929292;
+  font-size:1.4rem;
+  position:absolute;
+  right:10px;
+  top:13px;
+}
+.private-list-box .letter-content{
+  display:block;
+  margin-left:58px;
+  margin-top:27px;
+  font-size:1.3rem;
+  color:#929292;
+}
+.private-list-box .letter-content span.active{
+  display:inline-block;
+  height:5px;
+  width:5px;
+  margin-left:3px;
+  margin-right:3px;
+  margin-bottom:2px;
+  border-radius:50%;
+  background-color:rgb(247, 83, 62);
+}
+
+
+/*对话列表*/
+.chat-list-box {
+  position:fixed;
+  top:44px;
+  bottom:50px;
+  right:0;
+  left:0;
+  overflow-y:auto;
+  background-color:#f5f5f9;
+}
+.chat-list-box .chat-list{
+  padding:10px;
+  clear:both;
+  min-height:68px;
+  position:relative;
+}
+.chat-list-box .user-photo{
+  width:48px;
+  height:48px;
+  display:block;
+  position:absolute;
+  left:10px;
+  top:13px;
+  border-radius:50%;
+  overflow:hidden;
+}
+.chat-list-box .user-photo.right{
+  left:auto;
+  right:10px;
+}
+.chat-list-box .chat-content{
+  background-color:#ffffff;
+  display:block;
+  margin-left:58px;
+  margin-top:0px;
+  font-size:1.3rem;
+  color:#929292;
+  padding:5px 10px 10px 10px;
+  border:solid 1px #e2e2e2;
+  border-radius:5px;
+  position:relative;
+}
+.chat-content.right{
+  margin-right:58px;
+  margin-left:auto;
+}
+.chat-list-box .chat-time{
+  position:absolute;
+  bottom:3px;
+  color:#929292;
+  font-size:1.1rem;
+  left:10px;
+}
+.chat-list-box .info-item{
+  vertical-align:middle;
+  padding:20px 10px;
+  text-align:center;
+  overflow:hidden;
+  width:100%;
+  font-size:1.1rem;
+  display:none;
+}
+.chat-list-box .loading-item{
+  max-height:50px;
+  min-height:25px;
+  height:0;
+  vertical-align:middle;
+  text-align:center;
+  overflow:hidden;
+  width:100%;
+  font-size:1.1rem;
+  background-color:#fff;
+  color:rgb(0,180,225);
+  border:solid 1px #e2e2e2;
+  position:relative;
+}
+.chat-list-box .loading-item label{
+  position:absolute;
+  bottom:30px;
+  height:20px;
+  text-align:center;
+  display:block;
+  left:0;
+  right:0;
+}
+.chat-list-box .loading-item span{
+  position:absolute;
+  bottom:5px;
+  text-align:center;
+  display:block;
+  left:0;
+  right:0;
+  margin:5px auto auto auto;
+}
+/*通知的表头区域*/
+.ym_notice_letter{
+  height:48px;
+  line-height:48px;
+  vertical-align:middle;
+}
+.ym_notice_letter>label{
+  display:block;
+  float:left;
+  font-size:1.5rem; 
+  font-weight:bold;
+  color:#000;
+  height:48px;
+  line-height:48px;
+  margin-left:15px;
+}
+
+.ym_notice_letter>i{
+  width:48px;
+  height:48px;
+  line-height:42px;
+  text-align:center;
+  vertical-align:middle;
+  border-radius:50%;
+  border:solid 3px #eee;
+  color:#eee;
+  display:block;
+  float:left;
+  font-size:30px;
+}
+.ym_notice_letter>.ymicon-heart{
+  background-color:#f7535a;
+}
+.ym_notice_letter>.ymicon-star{
+  background-color:#ef7c1e;
+}
+.ym_notice_letter>.ymicon-comment{
+  background-color:#5eb95e;
+  font-size:32px;
+}
+.ym_notice_letter>.ymicon-t-finish{
+  background-color:#15afef;
+  font-size:24px;
+}
+.ym_notice_letter>span{
+  display:block;
+  height:15px;
+  line-height:15px;
+  text-align:center;
+  vertical-align:middle;
+  width :30px;
+  position:absolute;
+  top:25px;
+  right:30px;
+  background-color:#f7535a;
+  border-radius:7px;
+  color:#fff;
+  font-size:1.1rem;
+}
+/*公告列表*/
+.ym_notice_public_item{
+  position:relative;
+  
+}
+.ym_notice_public_item>pre{
+  padding:0px;
+  border:none;
+  margin-bottom:30px;
+  font-size:1.3rem;
+  color:#383838;
+  text-align:justify;
+  background-color:#fff;
+}
+.ym_notice_public_item>label{
+  position:absolute;
+  right:15px;
+  bottom:5px;
+  font-size:1.2rem;
+  color:#929292;
+  margin:0;
+}
+/*通用(like, 评论，邀请, 任务)通知列表*/
+.ym_notice_normal_item{}

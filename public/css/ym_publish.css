@@ -1,0 +1,481 @@
+input:focus{outline:none}
+select:focus{outline:none}
+.ym-imgfield{
+  width:100%;
+}
+.ym-imgfield-perview{
+  margin-bottom:5px;
+}
+.ym-imgfield-perview-item{
+  position:relative;
+  padding:1px;
+  display:inline-block;
+  border:solid 1px #dddddd;
+  margin-right:5px;
+  margin-bottom:5px;
+}
+.ym-imgfield-perview-selected{
+  border:solid 2px #dddd00;
+}
+.ym-imgfield-perview-img{
+  max-width:100px;
+  max-height:100px;
+}
+.ym-imgfield-perview-rmbtn{
+  position:absolute;
+  width:100%;
+  height:20px;
+  line-height:20px;
+  bottom:0;
+  left:0;
+  text-align:center;
+  font-size:1rem;
+  color:#ffffff;
+  background-color:rgba(255,0,0,0.5);
+}
+.ym-img-history{
+  text-align:left;
+  height:58px;
+}
+.ym-img-history-label{
+  text-align:left;
+  font-size:1rem;
+}
+.ym-img-history-item{
+  padding:1px;
+  border:solid 1px #dddddd;
+  margin:2px 2px 2px 0;
+  float:left;
+  display:inline-block;
+}
+.ym-img-history-img{
+  max-height:48px;
+  max-width:48px;
+}
+.ym-img-history-additem{
+  float:right;
+  padding:1px;
+  border:solid 1px #dddddd;
+  margin:2px 0 2px 2px;
+  display:inline-block;
+}
+.ym-img-history-addimg{
+  max-height:48px;
+  max-width:48px;
+}
+.ym-editimg{
+  max-height:261px;
+  max-width:100%;
+}
+/*
+ * 以下为任务管理页面和发布页面的通用新样式
+ * */
+body{
+    background-color:#f5f5f9;
+}
+/* Header样式*/
+.ym_backheader{
+    position:fixed;
+    left:0;
+    top:0;
+    height:44px;
+    width:100%;
+    /*background-color:rgba(0,0,0,0.8);*/
+    background-color:#252525;
+    color:#ffffff;
+    line-height:44px;
+    vertical-align:middle;
+    padding:0 10px 0 10px;
+    font-size:1.6rem;
+    text-align:center;
+    z-index:2;
+}
+.ym_backheader_title{
+    font-size:1.6rem;
+    font-weight:bold;
+}
+.ym_backheader_btn{
+    font-size:1.4rem;
+}
+.ym_taskmg_body{
+  width:100%;
+  height:100%;
+  overflow-x:hidden;
+  position:relative;
+}
+.ym_taskmg_page{
+    position:fixed;
+    display:none;
+    width:100%;
+    right:-100%;
+    overflow-y:auto;
+    height:100%;
+}
+/* 信息部分的样式*/
+.ym_taskmg_info{
+    background-color:#ffffff;
+    padding:7px 10px 7px 10px;
+    border-top:solid 1px #e2e2e2;
+    border-bottom:solid 1px #e2e2e2;
+}
+.ym_taskmg_info_header{
+    line-height:44px;
+    font-weight:bold;
+    font-size:1.6rem;
+    width:100%;
+}
+.ym_taskmg_info_header_input{
+  border:none;
+  width:100%;
+  font-weight:normal;
+   -webkit-appearance: none;
+}
+
+/* 分割样式*/
+.ym_taskmg_split{
+    height:15px;
+    border-bottom:solid 1px #e2e2e2;
+    background-color:#f5f5f9;
+}
+/* 其他项目的入口样式*/
+.ym_taskmg_item, .ym_taskmg_item_top{
+    clear:both;
+    line-height:44px;
+    font-size:1.4rem;
+    width:100%;
+    border-bottom:solid 1px #e2e2e2;
+    padding:0 10px 0 10px;
+    background-color:#ffffff;
+}
+.ym_taskmg_item_top{
+    border-top:solid 1px #e2e2e2;
+}
+.ym_taskmg_item_value{
+    color:#929292;
+    font-size:1.2rem;
+    float:right;
+    display:inline-block;
+    margin-right:10px;
+}
+.ym_taskmg_item_keyvalue{
+    color:#ef7c1e;
+    font-size:1.4rem;
+    font-weight:bold;
+    float:right;
+    display:inline-block;
+    margin-right:10px;
+}
+/* 选择列表 */
+.ym_taskmg_selector{
+    padding:10px 10px 10px 10px;
+    width:100%;
+    font-size:1.3rem;
+    color:#929292;
+    vertical-align:top;
+}
+.ym_taskmg_selector>label{
+  display:block;
+  color:#383838;
+  margin-bottom:10px;
+}
+.ym_taskmg_selector>textarea{
+  width:100%;
+  border:solid 1px #e2e2e2;
+  margin-bottom:10px;
+  display:block;
+}
+.ym_taskmg_selector>.money{
+  height:40px;
+  vertical-align:middle;
+  width:100%;
+  border:solid 1px #e2e2e2;
+  overflow:hidden;
+  padding:0 10px 0 10px;
+}
+.money>label{
+  display:block;
+  color:#383838;
+  float:left;
+  vertical-align:middle;
+  line-height:40px;
+  height:40px;
+  font-size:1.3rem;
+}
+.money>span{
+  display:block;
+  color:#ef7c1e;
+  font-size:1.2rem;
+  float:right;
+  vertical-align:middle;
+  line-height:40px;
+  height:40px;
+}
+.money>input{
+  display:block;
+  color:#383838;
+  width:100px;
+  border:none;
+  float:right;
+  vertical-align:middle;
+  line-height:40px;
+  height:40px;
+  text-align:right;
+  margin-right:5px;
+}
+.ym_taskmg_selector>ul{
+  margin:0;
+  list-style-type:none;
+  padding:0;
+  border-top:solid 1px #e2e2e2;
+  border-left:solid 1px #e2e2e2;
+  border-right:solid 1px #e2e2e2;
+}
+.ym_taskmg_selector>pre{
+  margin:0;
+  list-style-type:none;
+  padding:10px 0 10px 0;
+  font-size:1.3rem;
+  color:#929292;
+  border:none; 
+  background-color:#fff;
+}
+.ym_taskmg_selector>ul>li{
+  border-bottom:solid 1px #e2e2e2;
+  padding-left:10px;
+  margin-left:0;
+  height:40px;
+  line-height:40px;
+}
+.ym_taskmg_selector>ul>li.selected{
+  background-color:#ef7c1e;
+  color:#fff;
+}
+.ym_taskmg_selector>.scorebox{
+  width:100%;
+  height:45px;
+}
+.ym_taskmg_selector>.scorebox>i{
+  font-size:40px;
+  width:20%;
+  max-width:64px;
+  display:block;
+  float:left;
+  color:#e2e2e2;
+}
+.ym_taskmg_selector>.scorebox>i.selected{
+  color:#f7535a;
+}
+
+
+/* 说明文字*/
+.ym_taskmg_desc{
+    padding:10px 10px 10px 10px;
+    width:100%;
+    background-color:#f5f5f9;
+    font-size:12px;
+    color:#929292;
+    vertical-align:top;
+    background-color:#f5f5f9;
+}
+/* 报错信息*/
+.ym_taskmg_error{
+    padding:10px 10px 10px 10px;
+    width:100%;
+    background-color:#f5f5f9;
+    font-size:12px;
+    color:#ff0000;
+    vertical-align:top;
+    background-color:#f5f5f9;
+}
+/* 指向箭头*/
+.ym_taskmg_gotoicon{
+    float:right;
+    color:#a5a5a5;
+    font-size:12px;
+}
+/* 工具栏*/
+.ym-navbar-default .am-navbar-nav{
+    background-color:#ffffff;
+    border-top:solid 1px #e2e2e2;
+}
+.ym-navbar-default .am-navbar-nav a{
+    color:#ef7c1e;
+}
+.ym-navbar-default .am-navbar-nav [class*='ymicon-']{
+  font-size:22px;
+  margin-top:7px;
+  display:block;
+}
+/* text editor */
+.ym_taskmg_texteditor{
+    border-top:solid 1px #e2e2e2;
+    border-bottom:solid 1px #e2e2e2;
+    padding:10px;
+    background-color:#ffffff;
+    width:100%;
+    text-align:center;
+}
+.ym_taskmg_textarea{
+  width:100%;
+  font-size:1.4rem;
+  line-height:24px;
+  font-weight:normal;
+  text-align:justify;
+  vertical-align:middle;
+  border:none;
+  margin:0;
+  padding:0;
+  resize:none;
+}
+.ym_taskmg_moneyspan{
+  width:100%;
+  font-size:1.6rem;
+  color:#ef7c1e;
+  font-weight:normal;
+  text-align:center;
+  vertical-align:top;
+  border:none;
+  margin:0;
+  padding:0;
+}
+.ym_taskmg_numpad{
+  background-color:#ffffff;
+  text-align:center;
+  vertical-align:middle;
+  line-height:54px;
+  font-weight:bold;
+  color:#000000;
+  font-size:2rem;
+}
+.ym_taskmg_numpad button{
+  width:100%;
+  height:100%;
+  display:block;
+  height:55px;
+  border:none;
+  background-color:#ffffff;
+}
+.ym_taskmg_numpad button:active{
+  background-color:#ef7c1e;
+  color:#ffffff;
+}
+.ym_taskmg_numpad .isdisable{
+  color:#a4a4a4;
+}
+
+.ym_taskmg_numpad_left{
+    border-bottom:solid 1px #e2e2e2;
+}
+.ym_taskmg_numpad_center{
+    border-left:solid 1px #e2e2e2;
+    border-right:solid 1px #e2e2e2;
+    border-bottom:solid 1px #e2e2e2;
+}
+.ym_taskmg_numpad_right{
+    border-bottom:solid 1px #e2e2e2;
+}
+.ym_taskmg_selector{
+  width:100%;
+  height:100%;
+  overflow-y:auto;
+}
+.ym_taskmg_selector_list{
+    border-top:solid 1px #e2e2e2;
+    background-color:#ffffff;
+    width:100%;
+    text-align:center;
+    margin:0;
+    padding:0;
+    list-style-type:none;
+}
+.ym_taskmg_selector_item{
+  position:relative;
+  background-color:#ffffff;
+  border-bottom:solid 1px #e2e2e2;
+  border-right:solid 1px #e2e2e2;
+  width:100%;
+  clear:both;
+  text-align:left;
+  padding:10px 10px 10px 15px;
+  vertical-align:middle;
+}
+.ym_taskmg_selector_title{
+  vertical-align:middle;
+  font-size:1.4rem;
+  display:inline-block;
+}
+.ym_taskmg_selector_desc{
+  font-size:1.2rem;
+  color:#929292;
+  display:inline-block;
+}
+.ym_taskmg_selector_icon{
+  float:right;
+  color:#ef7c1e;
+  display:inline-block;
+}
+.ym_taskmg_imgbtn_content{
+  width:100%;
+  padding: 10px 0 10px 0;
+}
+.ym_taskmg_imgbtn_preview{
+  height:68px;
+  widows:68px;
+  display:inline-block;
+  margin-right:5px;
+  margin-bottom:5px;
+  border:solid 1px #e2e2e2;
+}
+.ym_taskmg_milestone{
+  width:100%;
+}
+.ym_taskmg_milestone_item{
+  width:100%;
+  border-bottom:solid 1px #e2e2e2;
+  border-top:solid 1px #e2e2e2;
+  padding: 0 10px;
+  margin-bottom:10px;
+  background-color:#ffffff;
+}
+.ym_taskmg_milestone_date{
+  color:#ef7c1e;
+  text-align:left;
+  width:100%;
+  border-bottom:solid 1px #e2e2e2;
+  padding: 10px 0;
+  font-size:1.4rem;
+}
+.ym_taskmg_milestone_text{
+  text-align:left;
+  width:100%;
+  padding: 10px 20px;
+  font-size:1.4rem;
+  border:none;
+  background-color:#ffffff;
+}
+.ym_taskmg_milestone_btn{
+  float:right;
+  display:inline-block;
+  margin-left:15px;
+}
+.ym_taskmg_pop_btn, .ym_taskmg_pop_btn2{
+  display:block;
+  width:90%;
+  height:40px;
+  font-size:1.4rem;
+  line-height:40px;
+  text-align:center;
+  vertical-align:middle;
+  margin:5px auto;
+  background-color:#ffffff;
+  color:#ef7c1e;
+  border:solid 1px #e2e2e2;
+}
+.ym_taskmg_pop_btn2{
+  background-color:#ef7c1e;
+  color:#ffffff;
+  border:solid 1px #e2e2e2;
+}
+.ym_imageupload_div{
+    display: inline-block;
+}

@@ -1,0 +1,316 @@
+
+.sc_ce{
+  background-color:#fff;
+  padding:10px;
+  min-height:150px;
+}
+.sc_ce_title{
+  display:block;
+  width:100%;
+  height:35px;
+  line-height:35px;
+  font-size:1.4rem;
+  color:#383838;
+  border-bottom:solid 1px #e2e2e2;
+  margin-top:10px;
+  font-weight:bold;
+  margin-bottom:0;
+}
+.sc_ce_title.error{
+  color:#f7535a;
+}
+.sc_ce_title.error:after{
+  content:"(请添加内容)";
+}
+/*----段落样式----*/
+.sc_ce>div[class *= sc_ce_par_]{
+  width:100%;
+  margin:0;
+  margin-bottom:10px;
+}
+.sc_ce.edit>div[class *= sc_ce_par_]{
+  border:dashed 1px #e2e2e2;
+  position:relative;
+}
+.sc_ce_par_empty{
+  background-color:#f2f2f2;
+  border-radius:5px;
+  border:dashed 1px #e2e2e2;
+  font-size:1.3rem;
+  height:60px;
+  line-height:60px;
+  text-align:center;
+  vertical-align:middle;
+  color:#929292;
+}
+.sc_ce_par_text{}
+.sc_ce_par_text>pre{
+  margin:0;
+  border:0;
+  background-color:#fff;
+  text-align:justify;
+}
+.sc_ce_par_text.is_bold>pre{
+  font-weight:bold;
+}
+.sc_ce_par_text.is_ref>pre{
+  padding-left:20px;
+  border-left:solid 3px #e2e2e2;
+  color:#929292;
+}
+.sc_ce_par_image{
+  text-align:center;
+}
+.sc_ce_par_image>img{
+  max-width:100%;
+  border-radius:5px;
+  margin-right:auto;
+  margin-left:auto;
+}
+.sc_ce_par_image.is_fit>img{
+  width:100%;
+}
+.sc_ce_par_image>label{
+  display:block;
+  width:100%;
+  margin:auto 0;
+  text-align:center;
+  font-size:1.2rem;
+  line-height:25px;
+  vertical-align:middle;
+  color:#929292;
+}
+.sc_ce_par_link{vertical-align:middle;}
+.sc_ce_par_link>span{
+  display:inline-block;
+  height:20px;
+  line-height:20px;
+  padding:0 10px 0 5px;
+  border-radius:0 10px 10px 0;
+  font-size:1.2rem;
+  color:#fff;
+  background-color:#ef7c1e;
+}
+.sc_ce_par_shade{
+  position:absolute;
+  width:100%;
+  height:100%;
+  left:0;
+  right:0;
+  top:0;
+  bottom:0;
+  background-color:rgba(220,220,220,0.6);
+}
+.sc_ce_par_shade.for_rm{
+  position:absolute;
+  width:100%;
+  height:100%;
+  left:0;
+  right:0;
+  top:0;
+  bottom:0;
+  background-color:rgba(40,40,40,0.8);
+}
+.sc_ce_par_shot{
+  overflow:hidden;
+  line-height:40px;
+  vertical-align:middle;
+  border-radius:5px;
+}
+.sc_ce_par_icon{
+  position:absolute;
+  bottom:10px;
+  font-size:13px;
+  height:30px;
+  width:30px;
+  border-radius:50%;
+  background-color:rgba(40,40,40,0.5);
+  border:solid 2px #e2e2e2;
+  color:#fff;
+  font-weight:bolder;
+  line-height:28px;
+  text-align:center;
+  vertical-align:middle;
+}
+.sc_ce_par_icon.ym_active{
+  background-color:#ef7c1e;
+}
+.sc_ce_par_icon.ymicon-reference{
+  right:220px;
+}
+.sc_ce_par_icon.ymicon-bold{
+  right:170px;
+}
+.sc_ce_par_icon.ymicon-fit{
+  right:170px;
+}
+.sc_ce_par_icon.ymicon-order-up{
+  right:120px;
+}
+.sc_ce_par_icon.ymicon-order-down{
+  right:70px;
+}
+.sc_ce_par_icon.ymicon-delete{
+  right:20px;
+}
+.sc_ce_par_icon.ymicon-yes{
+  background-color:rgba(220,220,220,0.6);
+  color:rgb(40, 40, 40);
+  right:70px;
+}
+.sc_ce_par_icon.ymicon-no{
+  background-color:rgba(220,220,220,0.6);
+  color:rgb(40, 40, 40);
+  right:20px;
+}
+.sc_ce_par_confirm{
+  position:absolute;
+  bottom:10px;
+  left:10px;
+  font-size:1.3rem;
+  height:30px;
+  line-height:30px;
+  border:0;
+  color:#fff;
+  font-weight:bolder;
+  text-align:left;
+  vertical-align:middle;
+}
+/*----end 段落样式----*/
+
+/*----工具栏样式----*/
+.sc_ce_tools{
+  position:fixed;
+  width:100%;
+  height:50px;
+  bottom:0;
+  z-index:500;
+  background-color:rgba(255,255,255,0.8);
+  border-top:solid 1px #e2e2e2;
+}
+/*----end 工具栏样式----*/
+
+/*----编辑器样式----*/
+.sc_ce_editor{
+  position:fixed;
+  left:0px;
+  right:0px;
+  top:44px;
+  bottom:20px;
+  max-height:250px;
+  z-index:1001;
+  display:none;
+  background-color:#fff;
+  border-top:solid 2px #e2e2e2;
+  border-bottom:solid 2px #e2e2e2;
+  overflow-x:hidden;
+  overflow-y:hidden;
+}
+.sc_ce_editor>div{
+  position:absolute;
+  left:10px;
+  right:10px;
+  background-color:#fff;
+  border:solid 1px #e2e2e2;
+  font-size:1.2rem;
+  outline:none;
+  padding:3px;
+}
+.sc_ce_editor>div.error{
+  border:solid 1px #f7535a;
+}
+.sc_ce_editor>div.input_text{
+  top:10px;
+  height:40px;
+  vertical-align:middle;
+  overflow:hidden;
+}
+.sc_ce_editor>div.input_text>input{
+  width:100%;
+  border:0;
+  height:100%;
+}
+.sc_ce_editor>div.long_text{
+  top:10px;
+  bottom:40px;
+  overflow-y:auto;
+}
+.sc_ce_editor>div.long_text>textarea{
+  width:100%;
+  height:100%;
+  border:0;
+  margin:0;
+  padding:5px;
+  overflow-y:auto;
+}
+.sc_ce_editor>div.link_text{
+  bottom:40px;
+  top:60px;
+  overflow-y:auto;
+}
+.sc_ce_editor>div.link_text>textarea{
+  width:100%;
+  height:100%;
+  border:0;
+  margin:0;
+  padding:5px;
+  overflow-y:auto;
+}
+.sc_ce_editor>div.label_text{
+  height:40px;
+  bottom:40px;
+  overflow-y:auto;
+}
+.sc_ce_editor>div.label_text>input{
+  width:100%;
+  border:0;
+  height:100%;
+}
+.sc_ce_editor>div.img_box{
+  bottom:79px;
+  left:10px;
+  right:10px;
+  top:10px;
+  overflow-y:auto;
+  text-align:center;
+  vertical-align:middle;
+}
+.sc_ce_editor>div.img_box>img{
+  max-width:100%;
+  max-height:100%;
+  display:block;
+  margin:auto;
+}
+.sc_ce_editor>div.img_box>i{
+  height:30px;
+  width:30px;
+  position:absolute;
+  right:15px;
+  bottom:15px;
+  font-size:20px;
+  border-radius:50%;
+  background-color:rgba(40,40,40,0.5);
+  border:solid 2px #e2e2e2;
+  color:#fff;
+  line-height:28px;
+  text-align:center;
+  vertical-align:middle;
+
+}
+.sc_ce_editor>button{
+  height:30px;
+  width:35%;
+  background-color:#ef7c1e;
+  border-radius:3px;
+  color:#fff;
+  position:absolute;
+  bottom:5px;
+  border:0;
+}
+.sc_ce_editor_confirm{
+  right:10%;
+}
+.sc_ce_editor_cancel{
+  left:10%;
+}
+/*----end 编辑器样式----*/

@@ -1,0 +1,111 @@
+
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: #e2e2e2; 
+    font-size: 12px; 
+}
+
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: #e2e2e2;
+    font-size: 12px;
+}
+
+input:-ms-input-placeholder,
+textarea:-ms-input-placeholder {
+    color: #e2e2e2;
+    font-size: 12px;
+}
+
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+    color: #e2e2e2;
+    font-size: 12px;
+}
+.login-title{
+	color: #929292;
+	padding: 3rem;
+	text-align: center;
+	font-weight: bolder;
+	font-size: 1.8rem;
+	margin: 0;
+}
+.login-capable{
+	margin-bottom: 1.5rem;
+	background: #ffffff;
+	width: 100%;
+	
+}
+.login-capable i{
+	margin-left:0.5rem; 
+	margin-top:1rem; 
+	position:absolute;
+}
+.login-user{
+	
+    padding: 1.4rem 0 1.4rem 3rem;
+    font-size: 1.4rem;
+    color: #383838;
+    width: 100%;
+    border: 0.1rem solid #e2e2e2;
+    height: auto !important;
+    position:initial !important;
+
+
+}
+.login-password{
+
+    padding-left: 3rem;
+    padding: 1.4rem 0 1.4rem 3rem;
+    font-size: 1.4rem;
+    color: #383838;
+    width: 100%;
+    border: 0.1rem solid #e2e2e2;
+    height: auto !important;
+    position:initial !important;
+}
+.login-status{
+	font-size: 1.2rem;
+	color: #ef7c1e;
+	background-color: transparent;
+    border: 0;
+    margin-top: 1.4rem;
+}
+.login-status-right{
+	font-size: 1.2rem;
+	color: #ef7c1e;
+	background-color: transparent;
+    border: 0;
+	padding: 1.5rem 0rem 1.5rem 1rem;
+
+}
+
+.login-btn button{
+	padding: 1.5rem 0 1.5rem 0;
+	margin-bottom: 1.5rem;
+	font-size: 1.4rem;
+}
+.login-btn .login-register{
+	background-color: #00b4ff;
+	border: #00b4ff;
+	float: left;
+	width: 47%;
+	font-size: 1.4rem;
+}
+.login-btn .login-wechat{
+	background-color: #3cb035;
+	border: #3cb035;
+	float: right;
+	width: 47%;
+	padding: 1.4rem 0 1.4rem 0;
+  position:relative;
+}
+.login-btn .login-wechat>i{
+  font-size:32px;
+  position:absolute;
+  left:20px;
+  top:6px;
+}
+.login-btn a{
+	font-size: 1.4rem;
+	margin-bottom: 1rem;
+	color: #fff;
+}

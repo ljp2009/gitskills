@@ -1,0 +1,152 @@
+.ym-editpane {
+    bottom: 5px;
+    right:5px; 
+    position:fixed;
+    width:6.6rem;
+    border:solid #ccc 1px;
+    border-radius:0.5rem;
+    padding:5px;
+    background: #eee;
+    font-size: 1.1rem;
+}
+
+.ym-pane-icon-btn{
+    width:20px;
+    height:20px;
+    font-size: 12px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 20px;
+    margin:6px;
+ }
+
+.ym-editbtn{
+    width:5.4rem;
+    text-align:center;
+    border:solid #fff 2px;
+    color:#fff;
+    font-size:1.1rem;
+    display:inline-block;
+    border-radius:0.5rem;
+    padding:0.3rem 0;
+    outline:none;
+}
+
+.ym-editbtn.selected{
+    border:solid #c00 2px;
+}
+
+.ym-editunit{
+    width:100%;
+    border:dashed #ccc 1px;
+    padding:10px;
+}
+
+.ym-unitselected{
+    border-radius:0.5rem;
+    margin:0.1rem;
+    border:solid #aaa 2px;
+}
+
+.ym-baiduwait{
+    font-size: 72px;
+    color:#888;
+    position:absolute;
+    left:50%;
+    top:50%;
+    margin-left:-36px;
+    margin-top:-36px;
+}
+
+.ym-editcontainer{
+    margin:10px;
+}
+.ym_img_pane{
+    width:100%;
+    border: 1px solid #CCC;
+    padding: 2px;
+    background: #FFF;
+}
+
+.ym-submit-btn{
+    width:2.4rem;
+    height:2rem;
+    border:solid #fff 2px;
+    background: #00cc00;
+    color:#fff;
+    font-size: 1.2rem;
+    text-align: center;
+    line-height: 100%;    
+}
+.ym-submit-btn.lefttop{
+    border-top-left-radius:10px;
+    border-right:solid #fff 1px;
+    border-bottom: solid #fff 1px;
+}
+
+.ym-submit-btn.righttop{
+    border-top-right-radius:10px;
+    border-left: solid #fff 1px;
+    border-bottom: solid #fff 1px;
+}
+.ym-submit-btn.middle{
+    border-top: solid #fff 1px;
+    border-bottom: solid #fff 1px;
+}
+
+.ym-submit-btn.middle.large{
+    width:5.4rem;
+}
+.ym-submit-btn.middle.left{
+    border-right:solid #fff 1px;
+}
+.ym-submit-btn.middle.right{
+    border-left:solid #fff 1px;
+}
+.ym-submit-btn.leftbottom{
+    border-bottom-left-radius:10px;
+    border-right:solid #fff 1px;
+    border-top: solid #fff 1px;
+}
+.ym-submit-btn.rightbottom{
+    border-bottom-right-radius:10px;
+    border-left:solid #fff 1px;
+    border-top: solid #fff 1px;
+}
+
+.ym-pane-move-region{
+    width:100%;
+    height:15px;
+    background:#ccd;
+    border-radius:0.5rem;
+}
+
+.ym-pane-move-region.touch{
+    background:#aab;
+}
+
+.ym-help-pane{
+    top: 0px;
+    left: 0px; 
+    height:30px;
+    position:fixed;
+    width:100%;
+    background: #0a0;
+    color:#fff;
+    font-size: 1.4rem;
+    line-height: 30px;
+    text-align: center;
+    z-index: 99;
+    border-bottom: solid #090 1px;
+}
+
+.ym-smallize-btn{
+    height:20px;
+    width:100%;
+    text-align: center;
+}
+
+.basicinfoClass{
+    border-radius: 5px;
+    background: #ddd;
+}

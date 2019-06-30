@@ -1,0 +1,185 @@
+
+.hall-container{width:100%;}
+.hall-container .am-my-slider{position:relative;}
+.hall-container .am-my-slider .am-slides li{position:relative;}
+.hall-container .am-my-slider .am-slides li h3{color:#000;font-size:1.8rem;position:absolute;width:100%;border-radius:0.3rem;background:rgba(255,255,255,.5);bottom:0;left:0;margin:0;height:3.5rem;line-height:3.5rem;font-weight:normal;padding-left:3%;}
+.hall-container .am-my-slider .am-slider-footer{position:absolute;width:100%;border-radius:0.3rem;background:rgba(255,255,255,.5);bottom:0;left:0;margin:0;}
+.hall-container .am-control-nav li a{background:#000;width:1rem;height:1rem;}
+.hall-container .am-control-nav li a.am-active{background:#ffdd15;}
+.hall-container .am-control-nav{bottom:-2.2rem;}
+/*资源大厅的新样式*/
+.ym-hall-item-header{
+  height:19px;
+  margin:19px 0;
+  vertical-align:middle;
+}
+.ym-hall-item-h-title{
+  margin:0;
+  padding:0;
+  line-height:19px;
+  font-size:1.9rem;
+  float:left;
+  display:block;
+  vertical-align:middle;
+}
+.ym-hall-item-h-btn{
+  height:14px;
+  margin-top:3px;
+  line-height:14px;
+  display:block;
+  float:right;
+  color:#666666;
+  font-size:1.4rem;
+  vertical-align:middle;
+}
+.ym-hall-item-h-btnicon{
+  height:15px;
+  width:15px;
+  line-height:15px;
+  display:block;
+  float:right;
+  margin-top:1px;
+  background:url(../imgs/am-enter.png) no-repeat center 62% / 60%;
+  margin-right:14px;
+  vertical-align:middle;
+}
+.ym-hall-item-h-icon{
+  width:19px;
+  height:19px;
+  line-height:19px;
+  display:block;
+  float:left;
+  margin-left:5px;
+  margin-right:9px;
+  background-image:url('/imgs/rh-icon.png');
+}
+.ym-hall-item-h-icon-fire{ background-position:0 0; }
+.ym-hall-item-h-icon-note{ background-position:-19px 0; }
+.ym-hall-item-h-icon-cd{ background-position:-37px 0; }
+.ym-hall-item-h-icon-star{ background-position:-57px 0; }
+.ym-hall-item-h-icon-sun{ background-position:-76px 0; }
+
+.ym-hall-master-avatar{
+  padding-top:7px;
+  text-align:center;
+  padding-bottom:7px;
+}
+.ym-hall-master-avatar-img{
+  height:62px;
+  width:62px;
+}
+.ym-hall-master-txt{
+  text-align:center;
+  width:100%;
+  height:13px;
+  line-height:13px;
+  font-size:1.3rem;
+  margin-bottom:22px;
+  color:#000000;
+}
+.ym-hall-activity-table{
+  width:100%;
+  clear:both;
+  margin-top:15px;
+  margin-bottom:23px;
+}
+.ym-hall-activity-cover{
+  width:150px;
+  height:159px;
+  padding:0;
+}
+.ym-hall-activity-cover-img{
+  width:100%;
+}
+.ym-hall-activity-info-title{
+  padding-left:10px;
+  text-align:left;
+  font-size:1.8rem;
+  line-height:20px;
+  height:47px;
+  vertical-align:top;
+  font-weight:bold;
+}
+.ym-hall-activity-info-detail{
+  padding-left:10px;
+  text-align:left;
+  font-size:1.2rem;
+  height:47px;
+  line-height:14px;
+  color:#666666;
+}
+.ym-hall-activity-info-btn{
+  text-align:center;
+  height:auto;
+  vertical-align:middle;
+}
+.ym-hall-activity-info-more{
+  height:14px;
+  font-size:1.4rem;
+  line-height:14px;
+  text-align:center;
+  vertical-align:bottom;
+  color:#666666;
+}
+
+.ym-hall-recommand-cover{
+  text-align:center;
+  vertical-align:middle;
+  margin:0 3px;
+}
+.ym-hall-recommand-cover-img{
+  width:100%;
+}
+.ym-hall-recommand-title{
+  text-align:left;
+  margin:9px 3px 0 3px;
+  font-size:1.3rem;
+  color:#000000;
+}
+.ym-hall-recommand-like{
+  text-align:left;
+  margin:0 3px 14px 3px;
+  font-size:1rem;
+  color:#888888;
+}
+
+.ym-hall-special-cover{
+  text-align:center;
+  vertical-align:middle;
+  margin:0 3px;
+}
+.ym-hall-special-cover-img{
+  width:100%;
+}
+.ym-hall-special-title{
+  text-align:left;
+  margin:12px 3px 0 3px;
+  font-size:1.3rem;
+  color:#000000;
+}
+.ym-hall-special-like{
+  text-align:left;
+  margin:0 3px 22px 3px;
+  font-size:1rem;
+  color:#888888;
+}
+.ym-hall-dimension-cover{
+  text-align:center;
+  vertical-align:middle;
+  margin:0 3px;
+}
+.ym-hall-dimension-cover-img{
+  width:100%;
+}
+.ym-hall-dimension-title{
+  text-align:left;
+  margin:9px 3px 0 3px;
+  font-size:1.3rem;
+  color:#000000;
+}
+.ym-hall-dimension-like{
+  text-align:left;
+  margin:0 3px 24px 3px;
+  font-size:1rem;
+  color:#888888;
+}

@@ -1,0 +1,66 @@
+.ym_classify_container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    background-color: #fff;
+  }
+  .ym_classify{
+    background-color: #e2e2e2;
+    margin-bottom: 1.5rem;
+    border-top: #e2e2e2 1px solid;
+    border-bottom: #e2e2e2 1px solid;
+  }
+  .ym_classify ul{
+    text-align: left;
+    padding: 0px;
+    margin: 0px;
+  }
+  .ym_classify li{
+    /*margin: 10px 10px;*/
+    text-align: center;
+    padding: 6px 0;
+    width: 31%;
+    display: inline-block;
+  }
+  .ym_classify li span{
+    margin: 0 5px;
+    font-size: 12px;
+    text-align: center;
+    border: 1px solid #e2e2e2;
+    border-radius: 2px;
+    padding: 5px 10px;
+    width: 90%;
+    display: block;
+    color: #ef7c1e;
+    background-color:#fff;
+    border-radius: 2px;
+  }
+  .ym_classify li span:link{
+    margin: 0 5px;
+    font-size: 14px;
+    text-align: center;
+    border: 1px solid #e2e2e2;
+    border-radius: 2px;
+    padding: 5px 10px;
+    width: 90%;
+    display: block;
+    color: #ef7c1e;
+    background-color:#fff;
+    border-radius: 2px;
+    
+  }
+
+  .ym_classify li span:hover{
+    background: #ef7c1e;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    
+  }
+
+  .ym_classify_container .ym_classify_title{
+    font-size: 1.8rem;
+    font-weight: bolder;
+    border-bottom: 1px #e2e2e2 dotted;
+    padding: 0.5rem 0rem 0.2rem 0rem;
+    width: 100%;
+    display: block;
+  }

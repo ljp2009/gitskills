@@ -1,0 +1,370 @@
+.ym_ip_contribution{
+  height:30px;
+  line-height:30px;
+  text-align:left;
+  vertical-align:middle;
+  color:#929292;
+  font-size:1.1rem;
+}
+.ym_ip_contribution>i{
+  color:#ef7c1e;
+  font-size:7px;
+  float:right;
+}
+.ym_ip_title{
+  position:relative;
+  text-align:left;
+  vertical-align:middle;
+  color:#383838;
+  font-size:1.6rem;
+  line-height:48px;
+  height:48px;
+}
+.ym_ip_debug{
+  position:absolute;
+  height:48px;
+  line-height:48px;
+  right:0;
+  top:0;
+  color:#ef7c1e;
+  font-size:1.2rem;
+  text-align:right;
+  vertical-align:middle;
+}
+.ym_ip_infobox{
+  width:100%;
+  position:relative;
+  clear:both;
+  vertical-align:top;
+  height:auto;
+}
+.ym_ip_cover{
+  width:31%;
+  position:relative;
+  margin:0;
+  overflow:hidden;
+}
+.ym_ip_cover>img{
+  width:100%;
+}
+.ym_ip_cover>span{
+	position:absolute;
+	display:inline-block;
+	width:64px;
+	height:15px;
+	line-height:15px;
+	background:#ef7c1e;
+	border-top:1px solid #fff;
+	border-bottom:1px solid #fff;
+	text-align:center;
+	color:#fff;
+	font-size:10px;
+	-webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  font-style:normal;
+	right:-16px;
+	top:8px;
+}
+.ym_ip_info{
+  width:66%;
+  margin:0;
+  vertical-align:top;
+  padding-left:15px;
+  height:100%;
+  position:absolute;
+  left:31%;
+  top:0;
+}
+.ym_ip_info_starbox{
+  height:16px;
+  padding-left:5px;
+  font-size:16px;
+  line-height:16px;
+  text-align:left;
+  vertical-align:top;
+}
+.ym_ip_info_starbox>i{
+  color:#e2e2e2;
+  margin-left:-7px;
+  font-size:20px;
+}
+.ym_ip_info_starbox>i.ym_active{
+  color:#f7535a;
+}
+.ym_ip_info_tag0, .ym_ip_info_tag{
+  font-size:1rem;
+  height:20%;
+  line-height:2;
+  vertical-align:middle;
+  color:#383838;
+  overflow-x:hidden;
+}
+.ym_ip_info_tag{
+  color:#929292;
+}
+.ym_ip_info_rec{
+  position:absolute;
+  bottom:0;
+  width:100%;
+  height:29px;
+  line-height:29px;
+  vertical-align:bottom;
+  text-align:left;
+}
+.ym_ip_info_rec>button{
+  height:26px;
+  width:42%;
+  line-height:26px;
+  text-align:center;
+  vertical-align:middle;
+  font-size:1.2rem;
+  background-color:#ef7c1e;
+  border-radius:3px;
+  border:none;
+  padding:0;
+  display:inline-block;
+  color:#ffffff;
+}
+.ym_ip_info_rec>span{
+  height:26px;
+  width:42%;
+  line-height:26px;
+  text-align:center;
+  vertical-align:middle;
+  font-size:1.2rem;
+  color:#383838;
+  display:inline-block;
+}
+.ym_ip_rolebox{
+  height:70px;
+  width:100%;
+}
+.ym_ip_role{
+  width:16.5%;
+  padding-right:10px;
+  float:left;
+}
+.ym_ip_role>img{
+  width:100%;
+  display:block;
+  border:solid 1px #e2e2e2;
+  border-radius:3px;
+}
+.ym_ip_role>label{
+  width:100%;
+  font-size:1.1rem;
+  vertical-align:middle;
+  text-align:center;
+  color:#929292;
+  display:block;
+  word-break:keep-all;
+  white-space:nowrap;
+  text-overflow:ellipsis;
+  overflow:hidden;
+}
+.ym_ip_controlbox{
+  height:48px;
+  vertical-align:middle;
+}
+.ym_ip_controlbox>label{
+  text-align:left;
+  vertical-align:middle;
+  height:48px;
+  line-height:48px;
+  font-size:1.4rem;
+  display:block;
+  float:left;
+}
+.ym_ip_controlbox>label>i.ymicon-heart-o{
+  font-size:25px;
+  color:#838383;
+}
+.ym_ip_controlbox>label>i.ymicon-heart{
+  font-size:25px;
+  color:#f7535a;
+}
+.ym_ip_controlbox>label>i.ymicon-star{
+  color:#e2e2e2;
+  margin-left:-7px;
+  font-size:20px;
+}
+.ym_ip_controlbox>label>i.ym_active{
+  color:#f7535a;
+}
+.ym_ip_content{
+  font-size:1.3rem;
+  line-height:21px;
+  color:#929292;
+  text-align:justify;
+  width100%;
+  background-color:transparent;
+  padding:5px 0 5px 0;
+  vertical-align:top;
+  border:none;
+  margin:0;
+}
+
+.ym_ip_content.have_border{
+  border-top:solid 1px #e2e2e2;
+}
+.ym_ip_content.is_half{
+  max-height:89px;
+  overflow:hidden;
+}
+
+.ym_ip_content>span{
+  line-height:21px;
+  color:#929292;
+  text-align:justify;
+  width100%;
+  display:block;
+}
+.ym_ip_content>label{
+  font-size:1.1rem;
+  line-height:21px;
+  text-align:justify;
+  width100%;
+  color:#383838;
+  display:block;
+  margin-bottom:11px;
+}
+.ym_ip_content>img{
+  width:100%;
+  margin:10px 0 10px 0;
+}
+.ym_ip_content a{
+  width:100%;
+  margin:10px 0 10px 0;
+  display:block;
+  color:#ef7c1e;
+  font-size:1.2rem;
+  text-align:left;
+}
+.ym_ip_discinfo{
+  width:100%;
+  position:relative;
+  padding-left:50px;
+}
+.ym_ip_discinfo_avatar{
+  position:absolute;
+  left:0;
+  top:8px;
+  height:41px;
+  width:41px;
+  border-radius:50%;
+}
+.ym_ip_discinfo_title{
+  line-height:21px;
+  max-height:42px;
+  font-size:1.4rem;
+  color:#383838;
+  margin-top:16px;
+  text-align:left;
+  vertical-align:top;
+  margin-bottom:0;
+  width:100%;
+  overflow:hidden;
+}
+.ym_ip_discinfo_user{
+  font-size:1.1rem;
+  line-height:21px;
+  text-align:justify;
+  width100%;
+  color:#383838;
+  display:block;
+  margin-top:8px;
+  margin-bottom:8px;
+}
+.ym_ip_related{
+  display:none;
+}
+.ym_ip_related.ym_active{
+  display:block;
+}
+[class *=ym_ip_related_avg_]{
+  list-style:none;
+  margin:0;
+  padding:0;
+  margin-left:-10px;
+  padding-top:5px;
+}
+[class *=ym_ip_related_avg_]>li{
+  text-align:center;
+  padding-left:10px;
+  padding-right:0;
+  margin:0;
+  list-style:none;
+  display:inline-block;
+}
+[class *=ym_ip_related_avg_]>li>img{
+  width:100%;
+}
+[class *=ym_ip_related_avg_]>li>label{
+line-height:15px;
+height:15px;
+width:100%;
+font-size:1.1rem;
+text-align:left;
+vertical-align:top;
+word-break:keep-all;
+white-space:nowrap;
+text-overflow:ellipsis;
+overflow:hidden;
+display:block;
+margin-top:8px;
+color:#929292;
+}
+.ym_ip_related_avg_4>li{
+  width:23.8%;
+}
+.ym_ip_liker_row{
+  height:67px;
+  line-height:65px;
+  text-align:left;
+  vertical-align:middle;
+  padding-left:66px;
+  position:relative;
+  word-break:keep-all;
+  white-space:nowrap;
+  text-overflow:ellipsis;
+  overflow:auto;
+}
+.ym_ip_liker_flag{
+  position:absolute;
+  left:0;
+  top:0;
+  height:67px;
+  background-color:#ffffff;
+}
+.ym_ip_liker_flag>span{
+  display:block;
+  font-size:1.4rem;
+  height:25px;
+  line-height:25px;
+  vertical-align:bottom;
+  margin-top:10px;
+  text-align:center;
+}
+.ym_ip_liker_flag>span>i{
+  color:#f7535a;
+  font-size:24px;
+}
+.ym_ip_liker_flag>label{
+  display:block;
+  width:100%;
+  font-size:1.1rem;
+  color:#929292;
+  height:20px;
+  line-height:20px;
+  vertical-align:top;
+  text-align:center;
+}
+.ym_ip_liker_row>img{
+  border-radius:50%;
+  height:30px;
+  display:inline-block;
+  margin-right:8px;
+}
+.

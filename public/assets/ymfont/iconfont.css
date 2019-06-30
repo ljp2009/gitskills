@@ -1,0 +1,161 @@
+
+@font-face {font-family: "ymiconfont";
+  src: url('iconfont.eot?t=1495508567091'); /* IE9*/
+  src: url('iconfont.eot?t=1495508567091#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('iconfont.woff?t=1495508567091') format('woff'), /* chrome, firefox */
+  url('iconfont.ttf?t=1495508567091') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('iconfont.svg?t=1495508567091#ymiconfont') format('svg'); /* iOS 4.1- */
+}
+
+.ymiconfont, [class *= ymicon-] {
+  font-family:"ymiconfont" !important;
+  font-size:16px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.ymicon-qq:before { content: "\e640"; }
+
+.ymicon-weixin:before { content: "\e641"; }
+
+.ymicon-bold:before { content: "\e63e"; }
+
+.ymicon-t-back:before { content: "\e632"; }
+
+.ymicon-female:before { content: "\e62d"; }
+
+.ymicon-male:before { content: "\e62e"; }
+
+.ymicon-wechat-0:before { content: "\e626"; }
+
+.ymicon-delete:before { content: "\e65f"; }
+
+.ymicon-add2:before { content: "\e625"; }
+
+.ymicon-sex:before { content: "\e62b"; }
+
+.ymicon-t-list:before { content: "\e631"; }
+
+.ymicon-emoji:before { content: "\e638"; }
+
+.ymicon-edit:before { content: "\e62c"; }
+
+.ymicon-switch:before { content: "\e666"; }
+
+.ymicon-t-manage:before { content: "\e633"; }
+
+.ymicon-t-finish:before { content: "\e634"; }
+
+.ymicon-user2:before { content: "\e600"; }
+
+.ymicon-statistics:before { content: "\e601"; }
+
+.ymicon-app:before { content: "\e602"; }
+
+.ymicon-star:before { content: "\e603"; }
+
+.ymicon-market2:before { content: "\e604"; }
+
+.ymicon-clock:before { content: "\e605"; }
+
+.ymicon-good:before { content: "\e606"; }
+
+.ymicon-cd:before { content: "\e607"; }
+
+.ymicon-star-o:before { content: "\e608"; }
+
+.ymicon-bear:before { content: "\e609"; }
+
+.ymicon-home-o:before { content: "\e60a"; }
+
+.ymicon-bag-o:before { content: "\e60b"; }
+
+.ymicon-puzzle-o:before { content: "\e60c"; }
+
+.ymicon-user-o:before { content: "\e60d"; }
+
+.ymicon-home:before { content: "\e60e"; }
+
+.ymicon-bag:before { content: "\e60f"; }
+
+.ymicon-puzzle:before { content: "\e610"; }
+
+.ymicon-right:before { content: "\e611"; }
+
+.ymicon-add:before { content: "\e612"; }
+
+.ymicon-search:before { content: "\e613"; }
+
+.ymicon-user:before { content: "\e614"; }
+
+.ymicon-market:before { content: "\e615"; }
+
+.ymicon-setting:before { content: "\e616"; }
+
+.ymicon-logout:before { content: "\e617"; }
+
+.ymicon-eye:before { content: "\e618"; }
+
+.ymicon-msg:before { content: "\e619"; }
+
+.ymicon-heart-o:before { content: "\e61a"; }
+
+.ymicon-close:before { content: "\e61b"; }
+
+.ymicon-order:before { content: "\e61c"; }
+
+.ymicon-filter:before { content: "\e61d"; }
+
+.ymicon-left:before { content: "\e61e"; }
+
+.ymicon-heart:before { content: "\e61f"; }
+
+.ymicon-comment:before { content: "\e620"; }
+
+.ymicon-join:before { content: "\e621"; }
+
+.ymicon-man:before { content: "\e622"; }
+
+.ymicon-women:before { content: "\e623"; }
+
+.ymicon-lock:before { content: "\e624"; }
+
+.ymicon-alter:before { content: "\e627"; }
+
+.ymicon-share:before { content: "\e628"; }
+
+.ymicon-t-request:before { content: "\e6a9"; }
+
+.ymicon-down:before { content: "\e629"; }
+
+.ymicon-img:before { content: "\e62a"; }
+
+.ymicon-t-delivery:before { content: "\e635"; }
+
+.ymicon-fit:before { content: "\e63d"; }
+
+.ymicon-unie673:before { content: "\e63f"; }
+
+.ymicon-t-cancel:before { content: "\e648"; }
+
+.ymicon-no:before { content: "\e639"; }
+
+.ymicon-order-down:before { content: "\e62f"; }
+
+.ymicon-order-up:before { content: "\e630"; }
+
+.ymicon-menu:before { content: "\e63a"; }
+
+.ymicon-yes:before { content: "\e680"; }
+
+.ymicon-t-agree:before { content: "\e636"; }
+
+.ymicon-t-invite:before { content: "\e637"; }
+
+.ymicon-send:before { content: "\e67f"; }
+
+.ymicon-reference:before { content: "\e63c"; }
+
+.ymicon-report:before { content: "\e63b"; }
+

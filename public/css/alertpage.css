@@ -1,0 +1,13 @@
+.ym_actinfo_icon{}
+.ym_actinfo_label{
+  height:50px;
+  line-height:50px;
+  vertical-align:middle;
+  text-align:center;
+  font-size:3rem;
+  font-weight:bold;
+}
+.ym_actinfo_linkbox a{
+  font-size:1.2rem;
+  color:#ef7c1e;
+}

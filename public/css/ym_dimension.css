@@ -1,0 +1,148 @@
+/*次元*/
+
+.ym-dim-header{
+  background-color:rgba(0,0,0,0.6);
+  height:173px;
+  color:#ffffff;
+  width:100%;
+  background-image:url('/imgs/dim-back.png');
+  background-repeat:norepeat;
+  background-attachment:fixed;
+}
+.ym-dim-header-line{
+  height:130px;
+  border-bottom:solid #ffffff 1px;
+  width:100%;
+}
+.ym-dim-header-img{
+  margin-top:-36px;
+  margin-right:2rem;
+  height:72px;
+  width:72px;
+  float:right;
+  border:1px solid #666666;
+  line-height:18px;
+}
+.ym-dim-header-info{
+  margin-top:-27px;
+  float:right;
+  padding-right:15px;
+  text-align:right;
+  vertical-align:middle;
+  padding-top:4px;
+  max-width:200px;
+}
+
+.ym-dim-header-title{
+  font-size:1.8rem;
+  height:22px;
+  line-height:18px;
+  color:#ffffff;
+  font-weight:bold;
+  display:block;
+  float:right;
+  width:100%;
+}
+.ym-dim-header-desc{
+  font-size:1.2rem;
+  line-height:1.4rem;
+  margin-top:4px;
+  color:#eeeeee;
+  display:block;
+  float:right;
+  width:100%;
+}
+.ym-dim-header-bar{
+  background-color:#eeeeee;
+  padding:3px 1rem 0 1rem;
+  color:#666666;
+  font-size:1.2rem;
+  height:24px;
+}
+.ym-dim-header-alert-left{
+  float:left;
+  display:block;
+}
+.ym-dim-header-alert-right{
+  float:right;
+  display:block;
+  margin-right:0rem;
+}
+.ym_dim_header{
+  margin-top:0px;
+  height:220px;
+  background-color:#252525;
+  text-align:center;
+  padding-top:27px;
+  position:relative;
+}
+.ym_dim_header_cover{
+  width:20%;
+  margin:0 auto 0 auto;
+  display:block;
+  border:solid 2px #ffffff;
+  border-radius:3px;
+}
+.ym_dim_header_title{
+  position:absolute;
+  top:54%;
+  vertical-align:middle;
+  font-size:1.5rem;
+  text-align:center;
+  width:100%;
+  color:#ffffff;
+}
+.ym_dim_header_info{
+  position:absolute;
+  top:67%;
+  font-size:1.1rem;
+  vertical-align:middle;
+  text-align:center;
+  width:100%;
+  color:#929292;
+}
+.ym_dim_header_button{
+  position:absolute;
+  top:80%;
+  vertical-align:middle;
+  text-align:center;
+  width:100%;
+}
+.ym_dim_header_button>button{
+  height:26px;
+  width:102px;
+  line-height:26px;
+  text-align:center;
+  vertical-align:middle;
+  font-size:1.2rem;
+  background-color:#ef7c1e;
+  border-radius:3px;
+  border:none;
+  padding:0;
+  display:inline-block;
+  color:#ffffff;
+  margin-left:auto;
+  margin-right:auto;
+  position:relative;
+}
+.ym_dim_header_button>button.ym_active{
+  background-color:#929292;
+}
+/*次元列表*/
+.am-img-radius{border-radius:0.5rem;}
+.dimension-list .dimension-list-box {background: #ffffff; padding-top:1.5rem;padding-top:1.5rem;padding-bottom:1.5rem;  line-height: 1.5rem; position: relative;}
+.dimension-list .dimension-list-box .am-fr{margin-top:6%;}
+.dimension-list .dimension-list-box .am-u-lm-8{padding-left:0.6rem;}
+.dimension-list .dimension-list-box div h4{font-weight:normal;font-size:1.4rem;margin:0; height: 20%;}
+.dimension-list .dimension-list-box div span{color:#929292;font-size:1.1rem; height: 20%;}
+.dimension-list .dimension-list-box div p{overflow:hidden;color:#929292; width:98%; height: 20%;white-space:nowrap;text-overflow:ellipsis;font-size:1.2rem;margin:0.2rem 0 0 0;}
+.dimension-list .dimension-list-box .dimension-operation{position: absolute; bottom: 1.5rem;}
+.dimension-list .dimension-list-box .dimension-operation div {display: inline-block; background: #ef7c1e;width: 6.5rem;text-align: center;padding: 0.1rem 0 0.3rem 0; margin-top: 1.5rem;}
+.dimension-list .dimension-list-box .dimension-operation a{color: #fff; font-size: 1rem; }
+.dimension-list .dimension-list-box .dimension-operation .dimension-join{padding-left: 1.5rem; background: url(../assets/ymfont/icon_join.svg) left center no-repeat; background-size: 12px 12px;}
+.dimension-list .dimension-list-box .dimension-operation .dimension-operation-disable{background: #929292}
+.dimension-list .dimension-list-box .dimension-operation i{color: #ffffff; font-size: 1rem;}
+
+.dimension-list .dimension-list-box .ym_cover{width: 31%;}
+.dimension-list .dimension-list-box .ym_info{width: 66%; margin: 0; padding: 1.5rem; height: 100%; left: 31%;position: absolute; top: 0;}
+

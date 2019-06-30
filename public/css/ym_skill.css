@@ -1,0 +1,74 @@
+.ym-g{
+  width:auto;
+  margin-left: -1rem;
+  margin-right: -1rem;
+}
+
+.ym-form-set{
+  margin-bottom: 1.5rem;
+  margin-top: 1.6rem;
+  padding: 0rem;
+}
+.ym-form-group{
+  margin-bottom: 1.5rem;
+  background-color: #fff;
+}
+.ym-form-group label{
+  display: inline-block;
+  margin-bottom: 5px;
+
+}
+.ym-form-field{
+  width: 100%;
+  border: 1px solid #fff;
+  color: #555;
+  background: #fff;
+}
+.ym-skill-box{
+  position:relative;
+  width:100%;
+  text-align:center;
+}
+.ym-skill-box-img{
+  max-width:100%;
+  padding:1px;
+  margin:auto;
+}
+.ym-skill-box-imgbac{
+    text-align:center;
+    vertical-align:middle;
+    width:100%;
+    display:block;
+    padding:1px;
+    background-color:#eeeeee;
+    border:solid 1px #ffffff;
+}
+.ym-skill-box-label{
+  width:100%;
+  display:block;
+  padding:2px 5px;
+  font-size:1.2rem;
+}
+.ym-skill-box-flag{
+  position:absolute;
+  right:0;
+  top:2px;
+  height:18px;
+  width:35px;
+  background-color:rgba(247,215,22,0.7);
+  font-size:1rem;
+}
+
+@media screen and (max-width: 320px) {
+  .ym-skill-box-imgbac{
+    height:80px;
+    line-height:80px;
+  }
+}
+
+@media screen and (min-width: 321px) {
+  .ym-skill-box-imgbac{
+    height:100px;
+    line-height:100px;
+  }
+}

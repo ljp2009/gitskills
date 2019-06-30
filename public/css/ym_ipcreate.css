@@ -1,0 +1,37 @@
+body{background-color:#f5f5f9;}
+.ym_cm_card{
+  padding:0 10px 10px 10px;
+  max-width:500px;
+}
+.ym_ipc_cover_box{
+  width:49%;
+  padding:5px;
+  float:left;
+  background-color:red;
+}
+.ym_ipc_cover_box>img{
+  width:100%;
+}
+.ym_ipc_name{
+  width:49%;
+  float:right;
+  background-color:yellow;
+  padding:5px;
+}
+.ym_ipc_name>label{
+  width:100%;
+  font-size:1.3rem;
+}
+.ym_ipc_name>textarea{
+  width:100%;
+  font-size:1.3rem;
+}
+.ym_ipc_intro{
+  width:100%;
+  padding:5px;
+  clear:both;
+}
+.ym_ipc_intro>textarea{
+  width:100%;
+  font-size:1.3rem;
+}

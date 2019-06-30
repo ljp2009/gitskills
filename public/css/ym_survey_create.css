@@ -1,0 +1,230 @@
+.ym_main{
+    background-color: #fff;
+}
+.ym_title{
+    padding: 10px 0px 5px 0px;
+    border-bottom: 1px solid #e2e2e2;
+    font-size: 14px;
+}
+
+.ym_title span{
+    color: #474747;
+    font-weight: bolder;
+}
+
+.ym_update_pic{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    border: 2px solid #e2e2e2;
+    display: inline-block;
+    text-align: center;
+    font-size: 14px;
+    color: #929292;
+}
+
+.ym-flag-avatar{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    border: 2px solid #e2e2e2;
+    display: inline-block;
+    text-align: center;
+    font-size: 14px;
+    color: #929292;
+}
+.ym-flag-background{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    border: 2px solid #e2e2e2;
+    display: inline-block;
+    text-align: center;
+    font-size: 14px;
+    color: #929292;
+}
+
+.ym_update_pic .ymicon-img{
+    color:#ef7c1e;
+    display: block;
+    font-size: 35px;
+}
+.ym_update_pic span{
+    margin-top: -10px;
+    display: block;
+    font-weight: bolder;
+    font-size: 14px;
+}
+.my_option{
+    clear: both;
+}
+.my_option_left{
+    display: inline-block;
+    margin-top: 15px;
+    margin-bottom: 0px;
+    float: left;
+    width: 48%;
+}
+.my_option_right{
+    display: inline-block;
+    margin-top: 15px;
+    margin-bottom: 0px;
+    float: right;
+    width: 48%;
+}
+.my_option select{
+    width: 100%;
+    height: 40px;
+    font-size: 12px;
+    color: #929292;
+    border-color: #e2e2e2;
+}
+.am-form-group label{
+    display: block;
+    font-size: 12px;
+    color: #929292;
+
+}
+.am-form-group textarea{
+    font-size: 12px;
+    color: #929292;
+    width: 100%;
+    height: 40px;
+    border-color: #e2e2e2;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.am-form-group .ym_input{
+    font-size: 12px;
+    color: #929292;
+    width: 100%;
+    border-color: #e2e2e2;
+    padding: 5px,10px,5px,10px;
+  }
+.am-form-group ul{
+    display: inline-block;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    float: left;
+}
+.am-form-field{
+    border-color: #e2e2e2;
+}
+.ym_btn{
+    font-size: 14px;
+    font-weight: bolder;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.ym_imageupload_div{
+    display: inline-block;
+}
+.ym_uset_default{
+    width:100%;
+    display:block;
+    background-color:#252525;
+    border-top:none;
+		background-size: cover;
+    position:relative;
+    height:180px;
+    margin:0px;
+    padding:10px;
+}
+.ym_uset_avatar{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    border: 2px solid #e2e2e2;
+    display:block;
+    overflow:hidden;
+    text-align: center;
+    font-size: 14px;
+    color: #929292;
+    margin:0 auto 20px auto;
+}
+.ym_uset_avatar>img{
+  width:100%;
+}
+.ym_uset_button{
+  display:block; 
+  min-width:100px;
+  height:30px;
+  line-height:26px;
+  color:#fff;
+  background-color:#ef7c1e;
+  border-radius:3px;
+  outline:none;
+  margin:10px auto;
+  border:none;
+  font-size:1.3rem;
+  font-weight:normal;
+}
+.ym_uset_info{
+    position:absolute;
+    top:25px;
+    left:0;
+    width:100%;
+    padding-left:130px;
+    padding-right:20px;
+}
+.ym_uset_info>input{
+    font-size:1.4rem;
+    color:#ffffff;
+    width:100%;
+    border:none;
+    background-color:transparent;
+    margin-top:10px;
+    border-bottom:1px solid #e2e2e2;
+    text-align:center;
+    left:130px;
+}
+.ym_uset_info>textarea{
+    font-size:1.3rem;
+    text-align:left;
+    color:#ffffff;
+    width:100%;
+    background-color:transparent;
+    padding:5px;
+    line-height:20px;
+    margin-top:20px;
+    border:1px solid #e2e2e2;
+    left:130px;
+}
+.ym_uset_info>label{
+  display:block;
+  color:#00ff00;
+  float:left;
+  font-size:1.2rem;
+  height:26px;
+  line-height:26px;
+  vertical-align:middle;
+  margin:10px auto 10px 0;
+}
+.ym_uset_info>label.error{
+  color:#ff0000;
+}
+.ym_uset_info>button{
+  display:block;
+  float:right;
+  margin:10px 0 10px auto;
+}
+.ym_uset_imgedit{
+  color: #ef7c1e;
+  font-size:22px;
+  position:absolute;
+  z-index:10;
+  display:block;
+  left:90px;
+  top:30px;
+}
+
+.ym_uset_alterrow{
+    padding:10px 10px 10px 10px;
+    width:100%;
+    background-color:#f5f5f9;
+    font-size:12px;
+    color:#929292;
+    vertical-align:top;
+    background-color:#f5f5f9;
+}

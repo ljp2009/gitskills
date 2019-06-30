@@ -1,0 +1,35 @@
+.ym_preload_progressbar{
+	border:solid #aaa 1px;
+	border-radius:5px;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	overflow:hidden;
+	margin-top:5px;
+}
+
+.ym_preload_progressbar_inner{
+	height: 10px;
+	width: 0px;
+	text-align: right;
+	background-color: #063053;
+	/* chrome 2+, safari 4+; multiple color stops */
+	background-image:-webkit-gradient(linear, left bottom, left top, color-stop(0.32, #069930), color-stop(0.66, #39dd58), color-stop(0.83, #5c997c));
+	/* chrome 10+, safari 5.1+ */
+	background-image: -webkit-linear-gradient(#069930, #39dd58, #5c997c);
+	/* firefox; multiple color stops */
+	background-image: -moz-linear-gradient(top,#069930, #39dd58, #5c997c);
+	/* ie 6+ */
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#069930', endColorstr='#39dd58');
+	/* ie8 + */
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#069930', endColorstr='#39dd58')";
+	/* ie10 */
+	background-image: -ms-linear-gradient(#069930, #39dd58, #5c997c);
+	/* opera 11.1 */
+	background-image: -o-linear-gradient(#069930, #39dd58, #5c997c);
+
+	background-image: linear-gradient(#069930, #39dd58, #5c997c);	
+
+	border-radius:3px;
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+}

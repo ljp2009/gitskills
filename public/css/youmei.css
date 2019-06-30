@@ -1,0 +1,46 @@
+/* cover ratchet */
+body
+{
+    background-color:white;
+}
+.bar-nav{
+    background-image: url("/imgs/logo.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-color: rgba(0,0,0,0.8);
+    }
+ .bar-nav .icon
+{
+    color: #ffdd15; 
+}
+.ym-no-topborder
+{
+    margin-top: 1em;
+    border-top: 0;  
+}
+.ym-same-padding, .ym-prod-title
+{
+    padding-left:11px;
+    padding-right: 11px;
+}
+.ym-prod-title
+{
+    border-top: 0;
+    border-bottom:0;
+    font-size:120%;
+    margin-top:0.2em; 
+}
+.ym-darkred-btn
+{
+    border: 0;
+    color: #513416;
+    font-weight: bolder;
+    background-color: transparent;
+    font-size: 70%
+}
+.ym-img-cover
+{
+    height:7.5em;
+    width:5.5em
+}
